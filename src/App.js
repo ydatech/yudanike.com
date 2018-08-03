@@ -15,9 +15,11 @@ class App extends Component {
               {/* <img src={logo} className="App-logo" alt="logo" /> */}
               <p className="App-intro">We're Getting Married</p>
               <h1 className="App-title">Yuda & Nike</h1>
-              <Route path="/invite/:name" render={({ match }) => {
-                return <p className="App-intro"><strong>{match.params.name}</strong>, you are invited to join us celebrating our wedding on:</p>
-              }} />
+              <p className="App-intro">
+                <Route path="/invite/:name" render={({ match }) => {
+                  return <span><strong>{match.params.name}</strong>, </span>
+                }} />
+                you are invited to join us celebrating our wedding on:</p>
               <p className="App-date">16.09.2018</p>
             </div>
           </header>
