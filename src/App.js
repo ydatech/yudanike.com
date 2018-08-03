@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">The Wedding of Yuda & Nike</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+        <div className="App">
+
+          <header className="App-header">
+            <div className="App-header-container">
+              {/* <img src={logo} className="App-logo" alt="logo" /> */}
+              <p className="App-intro">We're Getting Married</p>
+              <h1 className="App-title">Yuda & Nike</h1>
+              <Route path="/invite/:name" render={({ match }) => {
+                return <p className="App-intro"><strong>{match.params.name}</strong>, you are invited to join us celebrating our wedding on:</p>
+              }} />
+              <p className="App-date">16.09.2018</p>
+            </div>
+          </header>
+
+        </div>
+      </Router>
     );
   }
 }

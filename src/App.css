@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -8,18 +8,34 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #ffffba;
+  height: 100vh;
+  text-align: center;
+}
+
+.App-header-container {
   padding: 20px;
-  color: white;
+  color: #7f7f7f;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:center;
+  
+  height: 100%;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3.5em;
+  font-family: 'Niconne', cursive;
 }
 
 .App-intro {
   font-size: large;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.App-date {
+  font-size: 3.5em;
+  font-family: 'Work Sans', sans-serif;
 }
 
 @keyframes App-logo-spin {
