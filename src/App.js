@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Countdown from 'react-countdown-now';
 
 
 class App extends Component {
@@ -21,8 +22,20 @@ class App extends Component {
                 }} />
                 you are invited to join us celebrating our wedding on:</p>
               <p className="App-date">16.09.2018</p>
+              <Countdown
+                date={'Sun, 16 Sep 2018 09:00:00'}
+                renderer={({ completed, days, hours, minutes, seconds }) => {
+                  if (completed) {
+                    return null;
+                  }
+                  return <p>{days}:{hours}:{minutes}:{seconds}</p>
+                }}
+              />
             </div>
           </header>
+          <section>
+
+          </section>
 
         </div>
       </Router>

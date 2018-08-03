@@ -1,5 +1,5 @@
-.App {
-  /*text-align: center;*/
+body {
+  font-family: 'Work Sans', sans-serif;
 }
 
 .App-logo {
@@ -9,18 +9,23 @@
 
 .App-header {
   background-color: #ffffba;
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   text-align: center;
 }
 
 .App-header-container {
   padding: 20px;
-  color: #7f7f7f;
+  color: #330b0b;
   display: flex;
   flex-flow: column nowrap;
   justify-content:center;
-  
   height: 100%;
+  background-color: rgba(255, 255, 186, 0.65);
 }
 
 .App-title {
@@ -30,12 +35,11 @@
 
 .App-intro {
   font-size: large;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .App-date {
   font-size: 3.5em;
-  font-family: 'Work Sans', sans-serif;
+  
 }
 
 @keyframes App-logo-spin {
