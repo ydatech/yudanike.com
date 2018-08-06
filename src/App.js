@@ -33,9 +33,16 @@ class App extends Component {
               />
             </div>
           </header>
-          <section>
+          {/* <section className="App-section-profile">
+            <div className="App-profile-container">
+              <div>
+                <h3 className="profile-title">The Groom</h3>
+                <p> Yuda Sukmana</p>
+                <p> A passionate and creative Full-Stack developer </p>
+              </div>
+            </div>
 
-          </section>
+          </section> */}
 
         </div>
       </Router>

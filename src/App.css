@@ -41,6 +41,16 @@ body {
   
 }
 
+.App-section-profile{
+  background-color: #baffc9;
+}
+
+.profile-title{
+  margin-top:0;
+}
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
