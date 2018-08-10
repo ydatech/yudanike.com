@@ -2,7 +2,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-[[redirects]]
-  from ="/location"
-  to="https://www.google.com/maps/search/?api=1&query=-6.9069256,108.46252240000001"
