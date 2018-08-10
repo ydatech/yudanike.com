@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Countdown from 'react-countdown-now';
-
+import locationLogo from './images/location.svg';
 
 class App extends Component {
   render() {
@@ -31,7 +31,7 @@ class App extends Component {
                   return <p className="App-countdown">{days}:{hours}:{minutes}:{seconds}</p>
                 }}
               />
-              <p className="App-location"><a href="/location" target="_blank">Click here for the location</a></p>
+              <p className="App-location"><a href="/location" target="_blank"><img src={locationLogo} alt="Click here for the location" /> <span style={{ display: 'block' }}>Location</span></a></p>
 
             </div>
           </header>
