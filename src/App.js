@@ -31,7 +31,7 @@ class App extends Component {
                   return <p className="App-countdown">{days}:{hours}:{minutes}:{seconds}</p>
                 }}
               />
-              <p className="App-location"><a href="https://www.google.com/maps/search/?api=1&query=-6.9069256,108.46252240000001" target="_blank"><img src={locationLogo} alt="Click here for the location" /> <span style={{ display: 'block' }}>Location</span></a></p>
+              <p className="App-location"><a href="http://bit.ly/yudanike" target="_blank"><img src={locationLogo} alt="Click here for the location" /> <span style={{ display: 'block' }}>Location</span></a></p>
 
             </div>
           </header>
