@@ -18,7 +18,7 @@ body {
 }
 
 .App-header-container {
-  padding: 20px;
+  padding: 5px 20px 5px;
   color: #330b0b;
   display: flex;
   flex-flow: column nowrap;
@@ -30,6 +30,7 @@ body {
 .App-title {
   font-size: 3.5em;
   font-family: 'Niconne', cursive;
+  margin:0px;
 }
 
 .App-intro {
@@ -38,6 +39,7 @@ body {
 
 .App-date {
   font-size: 3.5em;
+  margin:0px;
   
 }
 
