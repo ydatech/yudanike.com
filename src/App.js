@@ -28,9 +28,11 @@ class App extends Component {
                   if (completed) {
                     return null;
                   }
-                  return <p>{days}:{hours}:{minutes}:{seconds}</p>
+                  return <p className="App-countdown">{days}:{hours}:{minutes}:{seconds}</p>
                 }}
               />
+              <p className="App-location"><a href="/location" target="_blank">Click here for the location</a></p>
+
             </div>
           </header>
           {/* <section className="App-section-profile">

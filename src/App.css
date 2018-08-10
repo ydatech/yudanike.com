@@ -49,6 +49,14 @@ body {
   margin-top:0;
 }
 
+.App-countdown{
+  font-size: 1.5em;
+}
+
+.App-location a{
+  color:#330b0b;
+  text-decoration: none;
+}
 
 
 @keyframes App-logo-spin {
