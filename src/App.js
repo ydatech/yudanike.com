@@ -131,7 +131,7 @@ class App extends Component {
               <div className="App-header-container">
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <p className="App-intro">The Groom</p>
-                <h1 className="App-title">Yuda Sukmana</h1>
+                <h1 className="App-title-med">Yuda Sukmana</h1>
                 <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={yudaFoto} /></p>
                 <p className="App-intro">
 
@@ -143,7 +143,7 @@ class App extends Component {
               <div className="App-header-container">
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <p className="App-intro">The Bride</p>
-                <h1 className="App-title">Nike Sartika</h1>
+                <h1 className="App-title-med">Nike Sartika</h1>
                 <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={nikeFoto} /></p>
                 <p className="App-intro">
                   an electrical engineering teacher, was born in Cirebon on April 2nd 1993.
