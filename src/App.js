@@ -73,6 +73,9 @@ export class PagingDots extends React.Component {
 }
 
 class App extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 1);
+  }
   render() {
     return (
       <Router>
