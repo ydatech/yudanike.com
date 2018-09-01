@@ -148,6 +148,13 @@ class App extends Component {
                 </p>
 
               </div>
+              <div className="App-header-container">
+                {/* <img src={logo} className="App-logo" alt="logo" /> */}
+                <p className="App-intro">
+                  <em>“Tiada terlihat lebih indah, bagi dua hati yang saling mencintai, yang semisal nikah. Tiada terdengar lebih tuah, bagi dua pribadi yang menikah, yang semisal berkah. Tiada terbaca lebih menjaga, bagi kedua jiwa yang berkah, yang semisal sakinah. Tiada teraba lebih membara, bagi dua sosok yang sakinah, yang semisal mawaddah. Tiada terasa lebih surga, bagi dua sosok yang mawaddah, yang semisal rahmah."</em> <span style={{ display: 'block' }}>(Salim A. Fillah)</span>
+                </p>
+
+              </div>
             </Carousel>
           </header>
           {/* <section className="App-section-profile">
