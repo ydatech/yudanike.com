@@ -130,24 +130,22 @@ class App extends Component {
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <p className="App-intro">The Groom</p>
                 <h1 className="App-title-med">Yuda Sukmana</h1>
-                <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={yudaFoto} /></p>
+                {/* <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={yudaFoto} /></p> */}
                 <p className="App-intro">
 
                   a passionate & creative full-stack developer, was born in Tasikmalaya on April 24th 1992.
 
                 </p>
-
-              </div>
-              <div className="App-header-container">
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
+                <p className="App-title-med">&</p>
                 <p className="App-intro">The Bride</p>
                 <h1 className="App-title-med">Nike Sartika</h1>
-                <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={nikeFoto} /></p>
+                {/* <p className="App-intro"><img style={{ maxWidth: 400, width: '80%', height: 'auto', border: '2px solid #330b0b' }} src={nikeFoto} /></p> */}
                 <p className="App-intro">
                   a teacher in electrical power engineering, was born in Cirebon on April 2nd 1993.
                 </p>
 
               </div>
+
               <div className="App-header-container">
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <p className="App-intro">
