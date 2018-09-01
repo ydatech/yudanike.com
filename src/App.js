@@ -152,7 +152,7 @@ class App extends Component {
                 <p className="App-intro"><strong>Ta'aruf</strong>: July 10th, 2018</p>
                 <p className="App-intro"><strong>Khitbah</strong>: August 24th, 2018</p>
                 <p className="App-intro"><strong>Nikah</strong>: September 16th, 2018</p>
-                <p>Note: We're both graduated from the same department at UPI Bandung, so we already know each other before ta'aruf started.</p>
+                <p>Note: We both graduated from the same department at UPI Bandung, so we already know each other before ta'aruf started.</p>
               </div>
 
               <div className="App-header-container">
